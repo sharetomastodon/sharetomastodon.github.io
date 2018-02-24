@@ -1,0 +1,175 @@
+---
+---
+
+$foreground: darken(#1872a2, 10%); // Friendica
+$foreground: #222222; // Diaspora
+$accent: #c0e6fa;
+$sidepadding: 1.2rem;
+$vertpadding: 0.6rem;
+$tabletmode: 768px;
+$desktopmode: 1024px;
+
+body {
+  margin: 0;
+  padding: 0;
+
+  color: $foreground;
+  font-family: Open Sans, sans-serif;
+
+  header {
+    padding: $vertpadding $sidepadding;
+
+    @media screen and (min-width: $desktopmode) {
+      padding: $vertpadding 10%;
+    }
+
+    background: $foreground;
+    color: #dadada;
+    font-size: 0.95rem;
+
+    .head-title {
+      display: inline;
+
+      @media screen and (min-width: $tabletmode) {
+        float: left;
+        display: block;
+        height: 100%;
+        padding: $vertpadding 0;
+      }
+    }
+
+    .details {
+      display: inline;
+      text-align: center;
+
+      .title {
+        display: inline;
+        font-weight: bold;
+
+        @media screen and (min-width: $tabletmode) {
+          display: block;
+        }
+      }
+
+      .url {
+        display: inline;
+
+        @media screen and (min-width: $tabletmode) {
+          display: block;
+        }
+      }
+      .url:before {
+        @media screen and (max-width: $tabletmode) {
+          content: '(';
+        }
+      }
+      .url:after {
+        @media screen and (max-width: $tabletmode) {
+          content: ')';
+        }
+      }
+    }
+  }
+
+  .wrapper {
+
+    @media screen and (min-width: $tabletmode) {
+      padding: 2*$vertpadding $sidepadding;
+    }
+
+    @media screen and (min-width: $desktopmode) {
+      width: 80%;
+      margin: 0 auto;
+      padding: 2*$vertpadding 0;
+    }
+
+    .search {
+      padding-right: $sidepadding * 2;
+
+      @media screen and (min-width: $tabletmode) {
+        width: 40%;
+        float: left;
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      input[type="search"] {
+        width: 100%;
+        padding: $vertpadding $sidepadding;
+        font-size: 1rem;
+
+        border: 0px solid lighten($foreground, 60%);
+        box-shadow: inset 0 0 12px -5px rgba(0,0,0,0.4);
+
+        @media screen and (min-width: $tabletmode) {
+          border-width: 1px;
+        }
+      }
+    }
+
+    .pod-list {
+      @media screen and (min-width: $tabletmode) {
+        display: inline-block;
+        float: right;
+        width: 50%;
+      }
+
+      a {
+        display: block;
+        cursor: pointer;
+        margin: 0 0 $vertpadding;
+        padding: $vertpadding $sidepadding;
+
+        text-decoration: none;
+        color: $foreground;
+        border: solid lighten($foreground, 60%);
+        border-width: 1px;
+
+        transition: box-shadow .15s ease, background .15s ease, color .15s ease;
+
+        &.hidden {
+          display: none;
+        }
+
+        &.memorized {
+          border-color: darken($accent, 30%);
+        }
+
+        &.selected {
+          background: $accent;
+          box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+        }
+
+        &.custom {
+          font-weight: bold;
+          border-color: darken(complement($accent), 20%);
+
+          &.selected {
+            background: complement($accent);
+          }
+        }
+
+        &:hover {
+          color: lighten($foreground, 20%);
+          box-shadow: 0 0 12px -5px rgba(0,0,0,0.4);
+        }
+      }
+    }
+
+    .options {
+      margin-top: 2*$vertpadding;
+      margin-bottom: 2*$vertpadding;
+
+      @media screen and (min-width: $tabletmode) {
+        float: left;
+        clear: left;
+        display: inline-block;
+        width: 40%;
+      }
+
+      label {
+        display: block;
+      }
+    }
+  }
+}
