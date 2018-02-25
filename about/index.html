@@ -5,8 +5,8 @@
 <!DOCTYPE html>
 <!--
 
-	diaspora* Advanced Sharer About Page
-	   based on Diaspora* Sharing Service by Jason Robinson | jaywink@iliketoast.net
+	Mastodon Advanced Sharer About Page
+	   based on Mastodon Sharing Service by Jason Robinson | jaywink@iliketoast.net
 
 	   Contributors:
 	      David Charte | bartimeo@joindiaspora.com
@@ -25,14 +25,14 @@
 		<script type="text/javascript">
 			var enforce = "{{ site.enforce_ssl }}";
 			if ((enforce == window.location.host) && (window.location.protocol != "https:"))
-			window.location = window.location.toString().replace(/^http:/, "https:");
+			window.location = window.location.toString().replace(/^https:/, "https:");
 		</script>
 		{% endif %}
 
-		<title>Advanced Sharer for diaspora*</title>
+		<title>Advanced Sharer for Mastodon</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8" />
-		<link rel="canonical" href="https://sharetodiaspora.github.io/about/" />
+		<link rel="canonical" href="https://sharetomastodon.github.io/about/" />
 		<link rel="stylesheet" href="../css/about.css">
 		<link rel="localization" href="../locales/manifest.json" />
 		<script type="text/javascript" src="../js/l20n.min.js"></script>
@@ -40,7 +40,7 @@
 	<body>
 		<div class="wrapper">
 			<header>
-				<h1>Advanced Sharer for diaspora*</h1>
+				<h1>Advanced Sharer for Mastodon</h1>
 
 				<img src="../assets/about_header.png" />
 				<h2>Share all teh internetz!</h2>
@@ -49,12 +49,9 @@
 			<article>
 				<h3>Features</h3>
 				<ul>
-					<li>Share websites on any diaspora* pod. Popular pods already available on a list.</li>
-					<li>Optionally memorize your last 3 pods.</li>
-					<li>URL shortening (via <a href="http://j.mp">j.mp</a>).</li>
-					<li>Markdown formatting.</li>
-					<li><b>Privacy</b>: all user data is stored on the browser local storage.
-						Shared URL will be shared with <a href="http://j.mp">j.mp</a> (from Bit.ly) only when URL shortening is enabled.</li>
+					<li>Share websites on any Mastodon instance. Popular instances already available on a list.</li>
+					<li>Optionally memorize your last 3 instances.</li>
+					<li><b>Privacy</b>: all user data is stored on the browser local storage.</li>
 				</ul>
 			</article>
 
@@ -67,10 +64,10 @@
 				<label for="nojs">Without JavaScript</label>
 
 				<div class="hidden">
-					<a class="testsh" href="http://sharetodiaspora.github.io/?title=diaspora* Advanced Sharer&url=http://sharetodiaspora.github.io/" target="_blank">
-		<img src="http://sharetodiaspora.github.io/favicon.png" style="border: 0px solid;" />
-	</a><pre>&lt;a href="http://sharetodiaspora.github.io/?title=Your title here&url=http://www.example.com/some/path" target="_blank">
-		&lt;img src="http://sharetodiaspora.github.io/favicon.png" style="border: 0px solid;" />
+					<a class="testsh" href="https://sharetomastodon.github.io/?title=Mastodon Advanced Sharer&url=https://sharetomastodon.github.io/" target="_blank">
+		<img src="https://sharetomastodon.github.io/favicon.png" style="border: 0px solid;" />
+	</a><pre>&lt;a href="https://sharetomastodon.github.io/?title=Your title here&url=https://www.example.com/some/path" target="_blank">
+		&lt;img src="https://sharetomastodon.github.io/favicon.png" style="border: 0px solid;" />
 	&lt;/a></pre>
 				</div>
 
@@ -78,9 +75,9 @@
 				<label for="btjs">With JavaScript</label>
 
 				<div class="hidden">
-					<a class="testsh" href="javascript:;" onclick="window.open('http://sharetodiaspora.github.io/?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title),'das','location=no,links=no,scrollbars=no,toolbar=no,width=620,height=550'); return false;" rel="nofollow" target="_blank">
-	<img src="http://sharetodiaspora.github.io/favicon.png" style="border: 0px solid;" /></a><pre>&lt;a href="javascript:;" onclick="window.open('http://sharetodiaspora.github.io/?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title),'das','location=no,links=no,scrollbars=no,toolbar=no,width=620,height=550'); return false;" rel="nofollow" target="_blank">
-	&lt;img src="http://sharetodiaspora.github.io/favicon.png" style="border: 0px solid;" />
+					<a class="testsh" href="javascript:;" onclick="window.open('https://sharetomastodon.github.io/?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title),'das','location=no,links=no,scrollbars=no,toolbar=no,width=620,height=550'); return false;" rel="nofollow" target="_blank">
+	<img src="https://sharetomastodon.github.io/favicon.png" style="border: 0px solid;" /></a><pre>&lt;a href="javascript:;" onclick="window.open('https://sharetomastodon.github.io/?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title),'das','location=no,links=no,scrollbars=no,toolbar=no,width=620,height=550'); return false;" rel="nofollow" target="_blank">
+	&lt;img src="https://sharetomastodon.github.io/favicon.png" style="border: 0px solid;" />
 &lt;/a></pre><p>
 				</div>
 
@@ -88,10 +85,10 @@
 				<label for="jstxt">With JavaScript & text</label>
 
 				<div class="hidden">
-					<a class="testsh" href="javascript:;" onclick="window.open('http://sharetodiaspora.github.io/?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title),'das','location=no,links=no,scrollbars=no,toolbar=no,width=620,height=550'); return false;" rel="nofollow" target="_blank" style="padding: 3px 4px 2px; background: #fafafa; border: 1px solid #ddd; font-size: 13px; color: #222; text-decoration: none;">
-		<img src="http://sharetodiaspora.github.io/favicon.png" style="border: 0px solid;display: inline-block;vertical-align: top;" /> diaspora*</a><pre>&lt;a href="javascript:;" onclick="window.open('http://sharetodiaspora.github.io/?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title),'das','location=no,links=no,scrollbars=no,toolbar=no,width=620,height=550'); return false;" rel="nofollow" target="_blank"
+					<a class="testsh" href="javascript:;" onclick="window.open('https://sharetomastodon.github.io/?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title),'das','location=no,links=no,scrollbars=no,toolbar=no,width=620,height=550'); return false;" rel="nofollow" target="_blank" style="padding: 3px 4px 2px; background: #fafafa; border: 1px solid #ddd; font-size: 13px; color: #222; text-decoration: none;">
+		<img src="https://sharetomastodon.github.io/favicon.png" style="border: 0px solid;display: inline-block;vertical-align: top;" /> Mastodon</a><pre>&lt;a href="javascript:;" onclick="window.open('https://sharetomastodon.github.io/?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title),'das','location=no,links=no,scrollbars=no,toolbar=no,width=620,height=550'); return false;" rel="nofollow" target="_blank"
 	style="padding: 3px 4px 2px; background: #fafafa; border: 1px solid #ddd; font-size: 13px; color: #222; text-decoration: none;">
-		&lt;img src="http://sharetodiaspora.github.io/favicon.png" style="border: 0px solid;display: inline-block;vertical-align: top;" /> diaspora*
+		&lt;img src="https://sharetomastodon.github.io/favicon.png" style="border: 0px solid;display: inline-block;vertical-align: top;" /> Mastodon
 	&lt;/a></pre>
 				</div>
 
@@ -99,79 +96,80 @@
 				<label for="blgrr">Blogger</label>
 
 				<div class="hidden">
-					This method will include a diaspora* share button next to Google +1 button. It is necessary to <a href="http://buzz.blogger.com/2010/06/new-share-buttons.html">enable the sharing buttons</a>.
+					This method will include a Mastodon share button next to Google +1 button. It is necessary to <a href="https://buzz.blogger.com/2010/06/new-share-buttons.html">enable the sharing buttons</a>.
 					<ul>
-						<li>Enter <a href="http://www.blogger.com/home">your dashboard</a> and choose your blog.</li>
+						<li>Enter <a href="https://www.blogger.com/home">your dashboard</a> and choose your blog.</li>
 						<li>In section <b>Template</b>, click on <b>Edit HTML</b>. If a warning appears, click <b>Continue</b>.</li>
 						<li>Check <b>Expand widget templates</b>, press Ctrl+F and write <i>sharebuttons</i>.</li>
 						<li>Find the line <code>&lt;b:includable id='shareButtons' var='post'></code>. Just after that, copy the following code:</li>
 					</ul>
-					<pre>&lt;a expr:href='&quot;http://sharetodiaspora.github.io/?url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' target='_blank' title='Share on diaspora'>
-	&lt;img src='http://sharetodiaspora.github.io/favicon.png' style='width:16px; height:16px; padding:0; border:0; vertical-align:middle;'/>
+					<pre>&lt;a expr:href='&quot;https://sharetomastodon.github.io/?url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' target='_blank' title='Share on diaspora'>
+	&lt;img src='https://sharetomastodon.github.io/favicon.png' style='width:16px; height:16px; padding:0; border:0; vertical-align:middle;'/>
 &lt;/a></pre>
 				</div>
 
-				<input type="radio" name="code" id="wrpr"/>
+				<!--<input type="radio" name="code" id="wrpr"/>
 				<label for="wrpr">Wordpress</label>
 
 				<div class="hidden">
-					<a href="http://wordpress.org/plugins/share-on-diaspora/">Share on diaspora* Plugin</a>,
+					<a href="https://wordpress.org/plugins/share-on-diaspora/">Share on Mastodon Plugin</a>,
 					by <a href="https://joindiaspora.com/people/bf5954464d47fe88">Vitalie Ciubotaru</a>,
-					inserts a <em>Share on diaspora*</em> button onto your Wordpress blog.
+					inserts a <em>Share on Mastodon</em> button onto your Wordpress blog.
 				</div>
 
 				<input type="radio" name="code" id="mvtyp"/>
 				<label for="mvtyp">Movable Type</label>
 
 				<div class="hidden">
-					This method will include a diaspora* share button under the entry's tag list.
+					This method will include a Mastodon share button under the entry's tag list.
 					<ul>
 						<li>In your blog's admin panel go to <strong>Templates</strong> in the section <strong>Design</strong></li>
 						<li>Edit the <strong>Entry</strong> template</li>
 						<li>Inside the <code>&lt;div&gt;</code> tag for the <code>asset-footer</code>, after <code>asset-footer-tags</code> add this snippet:
 						<pre>&lt;p class=&quot;asset-footer-share&quot;&gt;
-    &lt;a href=&quot;https://sharetodiaspora.github.io/?url=&lt;$mt:EntryPermalink encode_url=&quot;1&quot;$&gt;&amp;title=&lt;$mt:EntryTitle encode_url=&quot;1&quot;$&gt;&quot; target=&quot;_blank&quot; title=&quot;Share on diaspora&quot; style=&quot;padding: 3px 4px 2px; background: #fafafa; border: 1px solid #ddd; color: #222; text-decoration: none;&quot;&gt;
-        &lt;img src=&quot;https://sharetodiaspora.github.io/favicon.png&quot; style=&quot;border: 0 solid; padding: 0; width: 16px; height: 16px; vertical-align: top;&quot; alt=&quot;Share on diaspora&quot;/&gt; diaspora*
+    &lt;a href=&quot;https://sharetomastodon.github.io/?url=&lt;$mt:EntryPermalink encode_url=&quot;1&quot;$&gt;&amp;title=&lt;$mt:EntryTitle encode_url=&quot;1&quot;$&gt;&quot; target=&quot;_blank&quot; title=&quot;Share on diaspora&quot; style=&quot;padding: 3px 4px 2px; background: #fafafa; border: 1px solid #ddd; color: #222; text-decoration: none;&quot;&gt;
+        &lt;img src=&quot;https://sharetomastodon.github.io/favicon.png&quot; style=&quot;border: 0 solid; padding: 0; width: 16px; height: 16px; vertical-align: top;&quot; alt=&quot;Share on diaspora&quot;/&gt; Mastodon
     &lt;/a&gt;
 &lt;/p&gt;</pre>
 						</li>
 					</ul>
-				</div>
+				</div>-->
 
-				<h4>Bookmarklets</h4>
+				<!--<h4>Bookmarklets</h4>
 				Instead of using several bookmarklets for several pods, you can just add one of these to your bookmarks:
 
 				<ul>
 					<li>
-						Adapted from the classic bookmarklet from diaspora*:
-						<a href="javascript:(function(){f='http://sharetodiaspora.github.io/?url='+encodeURIComponent(window.location.href)+'&title='+encodeURIComponent(document.title)+'&notes='+encodeURIComponent(''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text))+'&v=1&';a=function(){if(!window.open(f+'noui=1&jump=doclose','diasporav1','location=yes,links=no,scrollbars=yes,toolbar=no,width=620,height=550'))location.href=f+'jump=yes'};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})()">Share on diaspora*</a>
+						Adapted from the classic bookmarklet from Mastodon:
+						<a href="javascript:(function(){f='https://sharetomastodon.github.io/?url='+encodeURIComponent(window.location.href)+'&title='+encodeURIComponent(document.title)+'&notes='+encodeURIComponent(''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text))+'&v=1&';a=function(){if(!window.open(f+'noui=1&jump=doclose','diasporav1','location=yes,links=no,scrollbars=yes,toolbar=no,width=620,height=550'))location.href=f+'jump=yes'};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})()">Share on Mastodon</a>
 					</li>
 					<li>
 						Better bookmarklet for image sharing:
-						<a href="javascript:(function(){image=document.querySelector('meta[property="og:image"]')&&document.querySelector('meta[property="og:image"]').getAttribute('content');f='http://sharetodiaspora.github.io/?title='+encodeURIComponent((image?'**'+document.title+'** ':'')+'!['+(image?document.title:'Image')+']('+(image||window.location.href)+')')+'&v=1&';a=function(){if(!window.open(f+'noui=1&jump=doclose&url='+encodeURIComponent(window.location.href),'diasporav1','location=yes,links=no,scrollbars=yes,toolbar=no,width=620,height=550'))location.href=f+'jump=yes'};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})()">Share image on diaspora*</a>
+						<a href="javascript:(function(){image=document.querySelector('meta[property="og:image"]')&&document.querySelector('meta[property="og:image"]').getAttribute('content');f='https://sharetomastodon.github.io/?title='+encodeURIComponent((image?'**'+document.title+'** ':'')+'!['+(image?document.title:'Image')+']('+(image||window.location.href)+')')+'&v=1&';a=function(){if(!window.open(f+'noui=1&jump=doclose&url='+encodeURIComponent(window.location.href),'diasporav1','location=yes,links=no,scrollbars=yes,toolbar=no,width=620,height=550'))location.href=f+'jump=yes'};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})()">Share image on Mastodon</a>
 					</li>
-				</ul>
+				</ul>-->
 
-				<h4>Add to Firefox</h4>
-				Firefox now supports <a href="https://activations.cdn.mozilla.net/en-US/diaspora.html">diaspora* as a sharing service</a>! These are other alternatives to share links from Firefox:
+				<!-- TODO : adapt this to Mastodon
+                <h4>Add to Firefox</h4>
+				Firefox now supports <a href="https://activations.cdn.mozilla.net/en-US/diaspora.html">Mastodon as a sharing service</a>! These are other alternatives to share links from Firefox:
 
 				<ul>
 					<li>
 						Add a native Share button to the Share Services of Firefox. Click "Share This Page" from the browser
 						toolbar to open the save dialog. Just click this button
-						<button onclick="activateSocialFeature(this)">Activate Diaspora* Sharing Service</button> and then choose
+						<button onclick="activateSocialFeature(this)">Activate Mastodon Sharing Service</button> and then choose
 						<em>Enable Services</em>.
 
 						<script>
 						  var data = {
-						    "name": "Share to Diaspora*",
-						    "description": "Diaspora* is a social network where you keep control.",
+						    "name": "Share to Mastodon",
+						    "description": "Mastodon is a social network where you keep control.",
 						    "author": "kemenaran",
-						    "homepageURL": "https://sharetodiaspora.github.io/about/",
-						    "iconURL":   "https://sharetodiaspora.github.io/assets/diaspora-icon-16.png",
-						    "icon32URL": "https://sharetodiaspora.github.io/assets/diaspora-icon-32.png",
-						    "icon64URL": "https://sharetodiaspora.github.io/assets/diaspora-icon-64.png",
-						    "shareURL": "https://sharetodiaspora.github.io/?url=%{url}&title=%{title}&notes=%{text}",
+						    "homepageURL": "https://sharetomastodon.github.io/about/",
+						    "iconURL":   "https://sharetomastodon.github.io/assets/diaspora-icon-16.png",
+						    "icon32URL": "https://sharetomastodon.github.io/assets/diaspora-icon-32.png",
+						    "icon64URL": "https://sharetomastodon.github.io/assets/diaspora-icon-64.png",
+						    "shareURL": "https://sharetomastodon.github.io/?url=%{url}&title=%{title}&notes=%{text}",
 						    "version": "1.0.0"
 						  };
 						  function activateSocialFeature(node) {
@@ -183,15 +181,15 @@
 					</li>
 					<li>
 						Add as an addon:
-						<a href="https://addons.mozilla.org/es/firefox/addon/diaspora-advanced-sharer/">diaspora* Advanced Sharer</a>
+						<a href="https://addons.mozilla.org/es/firefox/addon/diaspora-advanced-sharer/">Mastodon Advanced Sharer</a>
 						by <a href="https://iliketoast.net/u/jaywink">Jason Robinson</a>.
 					</li>
-				</ul>
+				</ul>-->
 			</article>
 
 			<article>
 				<h3>Contributors</h3>
-				Based on <i>diaspora* Sharing Service</i> by <a href="https://iliketoast.net/u/jaywink">Jason Robinson</a>.
+				Based on <i>diaspora-advanced-sharer</i> by <a href="https://iliketoast.net/u/jaywink">Jason Robinson</a>.
 
 				<p></p>
 
@@ -221,7 +219,7 @@
 
 			<footer>
 				Want to help or fork the project? The source code is available at
-				<a href="https://github.com/sharetodiaspora/sharetodiaspora.github.com">Github</a>. You are free to copy, modify and distribute it.
+				<a href="https://github.com/sharetomastodon/sharetomastodon.github.io">Github</a>. You are free to copy, modify and distribute it.
 			</footer>
 		</div>
 	</body>
