@@ -340,7 +340,7 @@ var Redirection = (function() {
 
   return {
     go: function(p) {
-      var pod = p || Selector.selected().getAttribute("data-pod-url"),
+      var pod = p || Selector.selected().getAttribute("data-pod-url");
 
       var url = Parameters.url,
         title = Parameters.title;
