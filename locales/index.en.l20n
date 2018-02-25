@@ -2,4 +2,4 @@
 <search placeholder:"Search or enter pod">
 <shorten "Shorten link (j.mp)">
 <remember "Remember my choice, don't ask again">
-<nosuggest "Don't suggest pods">
+<nosuggest "Don't suggest instances">

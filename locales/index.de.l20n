@@ -2,4 +2,4 @@
 <search placeholder:"Search or enter pod">
 <shorten "Kurz-URLs erzeugen (j.mp)">
 <remember "Meine einstellung merken, nicht nochmal fragen">
-<nosuggest "Die 3 zuletzt benutzten Pods niemals merken">
+<nosuggest "Die 3 zuletzt benutzten Instanzen niemals merken">
