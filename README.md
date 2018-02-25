@@ -4,7 +4,7 @@ Advanced Sharer for Mastodon
 This project is a fork of [Advanced Sharer for Diaspora](https://github.com/sharetodiaspora/sharetodiaspora.github.io), adapted to work with mastodon
 
 Advanced Sharer is a tool able to share links to any
-[Mastodon](https://github.com/tootsuite/mastodon) pod.
+[Mastodon](https://github.com/tootsuite/mastodon) instance.
 [Learn more](https://sharetomastodon.github.io/about).
 
 ## Usage
