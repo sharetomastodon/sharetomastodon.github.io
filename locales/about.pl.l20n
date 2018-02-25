@@ -1,12 +1,12 @@
-<diaspora "Diaspora*">
+<Mastodon "Mastodon*">
 <name {
-  *long: "{{ diaspora }} - Zaawansowane Współdzielenie",
+  *long: "{{ Mastodon }} - Zaawansowane Współdzielenie",
   short: "d*ZW"
 }>
-<introduction "{{ name }} jest narzędziem współdzielenia odnośników na dowolny pod sieci {{ diaspora }}.">
+<introduction "{{ name }} jest narzędziem współdzielenia odnośników na dowolny pod sieci {{ Mastodon }}.">
 
 <features "Możliwości">
-<shareonany "Współdzielenie na dowolny pod sieci {{ diaspora }}, korzystając z wygodnej listy popularnych podów.">
+<shareonany "Współdzielenie na dowolny pod sieci {{ Mastodon }}, korzystając z wygodnej listy popularnych podów.">
 <rememberlast "Opcjonalne zapamiętywanie 3 ostatnio wybranych podów, i przenoszenie ich na górę listy.">
 <optshortening "Opcjonalne skracanie odnośników (za pomocą <a href='http://j.mp'>j.mp</a>).">
 <optmarkdown "Opcjonalne formatowanie Markdown.">
@@ -39,9 +39,9 @@ Ta metoda umieści przycisk {{ name }} obok przycisku Google +1. Niezbędne jest
 <tobkmrkbar "do swoich zakładek">
 <by "za pomocą">
 <integrates "integruje {{ name.short }} z przeglądarką Mozilla Firefox">
-<wordpressplugin "umieszcza przycisk Podziel się w sieci {{ diaspora }} na Wordpressie">
+<wordpressplugin "umieszcza przycisk Podziel się w sieci {{ Mastodon }} na Wordpressie">
 
 <created "stworzone przez">
 <based "oparte na">
-<thanks "Podziękowania dla całej Społeczności sieci {{ diaspora }}!!">
-<sourcecode "Kod źródłowy dostępny jest na <a href='https://github.com/sharetodiaspora/sharetodiaspora.github.com'>Githubie</a>. Możesz go swobodnie kopiować, rozpowszechniać i modyfikować.">
+<thanks "Podziękowania dla całej Społeczności sieci {{ Mastodon }}!!">
+<sourcecode "Kod źródłowy dostępny jest na <a href='https://github.com/sharetoMastodon/sharetoMastodon.github.com'>Githubie</a>. Możesz go swobodnie kopiować, rozpowszechniać i modyfikować.">

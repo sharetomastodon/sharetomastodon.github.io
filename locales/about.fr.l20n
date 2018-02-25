@@ -1,12 +1,12 @@
-<diaspora "diaspora*">
+<Mastodon "Mastodon">
 <name {
-  *long: "{{ diaspora }} Advanced Sharer",
-  short: "d*AS"
+  *long: "{{ Mastodon }} Advanced Sharer",
+  short: "MAS"
 }>
-<introduction "{{ name }} est un outil capable de partager n'importe quel lien sur n'importe quel pod {{ diaspora }}.">
+<introduction "{{ name }} est un outil capable de partager n'importe quel lien sur n'importe quel pod {{ Mastodon }}.">
 
 <features "Caractéristiques">
-<shareonany "Partager sur n'importe quel pod {{ diaspora }}, avec une liste des principaux pods pour partager plus vite.">
+<shareonany "Partager sur n'importe quel pod {{ Mastodon }}, avec une liste des principaux pods pour partager plus vite.">
 <rememberlast "Retenir les 3 derniers pods choisis et les déplacer en haut de la liste. Cette fonctionnalité peut-être désactivée si vous le voulez.">
 <optshortening "Raccourcisseur d'URL optionnel (via <a href='http://j.mp'>j.mp</a>).">
 <optmarkdown "Synthaxe Markdown optionnelle">
@@ -37,9 +37,9 @@ Cette méthode incluera un bouton de partage {{ name }} près du bouton de Googl
 <tobkmrkbar "dans votre barre de favoris">
 <by "par">
 <integrates "ajoute {{ name.short }} à Mozilla Firefox">
-<wordpressplugin "ajoute un bouton Partager sur {{ diaspora }} à votre blog Wordpress">
+<wordpressplugin "ajoute un bouton Partager sur {{ Mastodon }} à votre blog Wordpress">
 
 <created "créé par">
 <based "basé sur">
-<thanks "Merci à toute la communauté {{ diaspora }} !">
-<sourcecode "Le code source est disponible sur <a href='https://github.com/sharetodiaspora/sharetodiaspora.github.com'>Github <sup>(en)</sup></a>. Vous êtes libre de le copier, modifier et distribuer.">
+<thanks "Merci à toute la communauté {{ Mastodon }} !">
+<sourcecode "Le code source est disponible sur <a href='https://github.com/sharetoMastodon/sharetoMastodon.github.com'>Github <sup>(en)</sup></a>. Vous êtes libre de le copier, modifier et distribuer.">

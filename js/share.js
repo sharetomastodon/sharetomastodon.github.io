@@ -45,7 +45,7 @@ var PodLoader = (function() {
       if (pods[i]) {
         var link = document.createElement("a");
 
-        link.href = "https://" + pods[i] + "/stream";
+        link.href = "https://" + pods[i] + "/share";
         link.setAttribute("data-pod-url", pods[i]);
         link.textContent = pods[i];
 
