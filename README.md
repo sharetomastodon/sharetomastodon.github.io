@@ -8,6 +8,9 @@ Advanced Sharer is a tool able to share links to any
 [Learn more](https://sharetomastodon.github.io/about).
 
 ## Usage
+
+![Demo GIF](demo.gif)
+
 The same parameters from advanced diaspora* sharer for title,
 URL and notes can be used, just add them to the URL:
 
@@ -18,7 +21,7 @@ https://sharetomastodon.github.io/?url=joinmastodon.org&title=The%20mastodon%20P
 [Try it!](https://sharetomastodon.github.io/?url=joinmastodon.org&title=The%20mastodon%20Project&notes=Welcome%20to%20mastodon)
 
 **Note**: If you've marked *Remember my choice* then you
-will be always redirected to the pod you chose that time.
+will be always redirected to the instance you chose that time.
 To avoid this, add the parameter `&redirect=false` on the URL.
 
 ## Contributing
