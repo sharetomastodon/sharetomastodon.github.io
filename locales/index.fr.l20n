@@ -1,5 +1,5 @@
 <sharing "Partager">
-<search placeholder:"Rechercher ou entrer pod">
+<search placeholder:"Rechercher ou entrer instance">
 <shorten "Raccourcir le lien (j.mp)">
 <remember "Se souvenir de mon choix, ne pas me demander à nouveau">
 <nosuggest "Ne pas suggérer les 3 dernières instances">

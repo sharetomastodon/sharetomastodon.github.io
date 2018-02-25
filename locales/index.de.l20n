@@ -1,5 +1,5 @@
 <sharing "Sharing">
-<search placeholder:"Search or enter pod">
+<search placeholder:"Search or enter instance">
 <shorten "Kurz-URLs erzeugen (j.mp)">
 <remember "Meine einstellung merken, nicht nochmal fragen">
 <nosuggest "Die 3 zuletzt benutzten Instanzen niemals merken">
