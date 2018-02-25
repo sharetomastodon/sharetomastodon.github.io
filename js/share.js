@@ -261,9 +261,9 @@ var EventHandler = (function() {
       target.select();
 
       // Let search input always capture focus
-      document.querySelector("#markdown").onchange = function() {
+      /*document.querySelector("#markdown").onchange = function() {
         document.querySelector(".search input").focus();
-      };
+    };*/
 
       document.querySelector("#remember").checked = Memory.direct() ? "checked" : "";
 
@@ -341,12 +341,9 @@ var Redirection = (function() {
   return {
     go: function(p) {
       var pod = p || Selector.selected().getAttribute("data-pod-url"),
-        useMarkdown = document.querySelector("#markdown").checked;
 
-      var url = useMarkdown ? "" : Parameters.url,
-        title = useMarkdown ?
-          ("[" + Parameters.title + "]" + "(" + Parameters.url + ")") :
-          Parameters.title;
+      var url = Parameters.url,
+        title = Parameters.title;
 
       var intent = location.protocol + "//" + pod + "/share?text=" +
         encodeURIComponent(title) + " | " + encodeURIComponent(url) +
