@@ -3,6 +3,7 @@ body {
     font-family: Helvetica, "Helvetica", Arial, sans-serif;
     font-size: 95%;
     max-height: 100%;
+    background-color: #35343B;
 }
 span.clear {
     clear: both;
