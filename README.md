@@ -10,7 +10,7 @@ Advanced Sharer is a tool able to share links to any
 ## Usage
 
 ![Demo GIF](demo.gif)
-_btw, you can see [Random Cute Girls Programming](https://rcgp.nsa.ovh), one of my projects also on [GitHub](https://github.com/nsaovh/rcgp)_
+_btw, you can see [Random Cute Girls Programming](https://rcgp.anjara.eu), one of my projects also on [GitHub](https://github.com/anjaraeu/rcgp)_
 
 The same parameters from advanced diaspora* sharer for title,
 URL and notes can be used, just add them to the URL:
